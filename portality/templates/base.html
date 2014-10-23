@@ -125,14 +125,17 @@
                 </select></p>
                 <div class="checkbox"><input id="id_confirm_public" name="confirm_public" type="checkbox" />
                 <label for="id_confirm_public" class="confirm-label">I understand that information obtained by this button will be publicly accessible</label>
+                {% if form %}{% if form.confirm_public %}{% if form.confirm_public.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.confirm_public.errors) }}</p>{% endif %}{% endif %}{% endif %}
                 </div>
                 <div class="checkbox"><input id="id_confirm_terms" name="confirm_terms" type="checkbox" />
                 <label for="id_confirm_terms" class="confirm-label">I have read the Open Access Button 
                 <a target="_blank" href="/privacy">privacy policy</a> and I agree 
                 to the <a target="_blank" href="/terms">terms</a></label>
+                {% if form %}{% if form.confirm_terms %}{% if form.confirm_terms.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.confirm_terms.errors) }}</p>{% endif %}{% endif %}{% endif %}
                 </div>
                 <div class="checkbox"><input id="id_mailinglist" name="mailing_list" type="checkbox" />
                 <label for="id_mailinglist" class="mailinglist-label">I would like to be added to the Open Access Button Mailing List</label>
+                {% if form %}{% if form.mailing_list %}{% if form.mailing_list.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.mailing_list.errors) }}</p>{% endif %}{% endif %}{% endif %}
                 </div>
                 <p style="font-size:0.9em;color:#bbb;">( Your e-mail address will NOT be publicised or shared with third parties. )</p>
                 <p><input type="submit" class="btn btn-lg btn-block btn-action" name="submit" value="get your Open Access Button"></p>

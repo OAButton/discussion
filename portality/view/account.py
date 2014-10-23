@@ -201,7 +201,7 @@ class RegisterForm(Form):
     profession = TextField('Profession')
     confirm_public = BooleanField('Public',[validators.Required()])
     confirm_terms = BooleanField('Terms',[validators.Required()])
-    mailing_list = BooleanField('Mailing',[validators.Required()])
+    mailing_list = BooleanField('Mailing')
     
 @blueprint.route('/register', methods=['GET', 'POST'])
 def register():
