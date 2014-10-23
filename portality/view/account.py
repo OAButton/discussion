@@ -164,7 +164,7 @@ def forgot():
             text += "If you are the user " + account.id + " and you did NOT request this change, please contact us immediately.\n\n"
             try:
                 util.send_mail(to=to, fro=fro, subject=subject, text=text)
-                flash('Your password has been reset. Please check your emails.')
+                flash('Your password has been reset. Please check your emails.', 'success')
                 if app.config.get('DEBUG',False):
                     flash('Debug mode - new password was set to ' + newpass)
             except:

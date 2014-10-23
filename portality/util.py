@@ -13,7 +13,9 @@ from email.MIMEBase import MIMEBase
 from email.MIMEText import MIMEText
 from email.Utils import COMMASPACE, formatdate
 from email import Encoders
-         
+
+from portality.core import app
+
 
 def is_safe_url(target):
     ref_url = urlparse(request.host_url)
@@ -30,9 +32,6 @@ def send_mail(to, fro, subject, text, files=[], bcc=[]):
     assert type(files)==list
     if bcc and not isinstance(bcc, list):
         bcc = [bcc]
-
-    if app.config.get('CC_ALL_EMAILS_TO'):
-        bcc.append(app.config.get('CC_ALL_EMAILS_TO'))
  
     msg = MIMEMultipart()
     msg['From'] = fro
