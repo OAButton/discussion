@@ -1,6 +1,6 @@
 from urllib import urlopen, urlencode
 import md5
-import os, re
+import os, re, string, struct
 from unicodedata import normalize
 from functools import wraps
 from flask import request, current_app
@@ -24,9 +24,15 @@ def is_safe_url(target):
     else:
         return '/'
 
-def send_mail(to, fro, subject, text, files=[],server="localhost"):
+ 
+def send_mail(to, fro, subject, text, files=[], bcc=[]):
     assert type(to)==list
     assert type(files)==list
+    if bcc and not isinstance(bcc, list):
+        bcc = [bcc]
+
+    if app.config.get('CC_ALL_EMAILS_TO'):
+        bcc.append(app.config.get('CC_ALL_EMAILS_TO'))
  
     msg = MIMEMultipart()
     msg['From'] = fro
@@ -38,15 +44,37 @@ def send_mail(to, fro, subject, text, files=[],server="localhost"):
  
     for file in files:
         part = MIMEBase('application', "octet-stream")
-        part.set_payload( open(file,"rb").read() )
-        Encoders.encode_base64(part)
-        part.add_header('Content-Disposition', 'attachment; filename="%s"'
-                       % os.path.basename(file))
+        if isinstance(file,dict):
+            part.set_payload( file['content'] )
+            Encoders.encode_base64(part)
+            part.add_header('Content-Disposition', 'attachment; filename="' + file['filename'] + '"')
+        else:
+            part.set_payload( open(file,"rb").read() )
+            Encoders.encode_base64(part)
+            part.add_header('Content-Disposition', 'attachment; filename="%s"'
+                           % os.path.basename(file))
         msg.attach(part)
- 
-    smtp = smtplib.SMTP(server)
-    smtp.sendmail(fro, to, msg.as_string() )
+    
+    # now deal with connecting to the server
+    server = app.config.get("SMTP_SERVER", "localhost")
+    server_port = app.config.get("SMTP_PORT", 25)
+    smtp_user = app.config.get("SMTP_USER")
+    smtp_pass = app.config.get("SMTP_PASS")
+    
+    smtp = smtplib.SMTP()  # just doing SMTP(server, server_port) does not work with Mailtrap
+    # but doing .connect explicitly afterwards works both with Mailtrap and with Mandrill
+    smtp.connect(server, server_port)
+
+    if smtp_user is not None:
+        smtp.login(smtp_user, smtp_pass)
+
+    smtp.sendmail(fro, to + bcc, msg.as_string())
     smtp.close()
+    
+    
+def generate_password(length=8):
+    chars = string.lowercase + string.uppercase + string.digits + '@#'
+    return ''.join(chars[struct.unpack('>q',os.urandom(8))[0] % 64] for i in range(length))
 
 
 def jsonp(f):

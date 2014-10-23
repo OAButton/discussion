@@ -148,7 +148,7 @@ def forgot():
         account = models.Account.pull(un)
         if account is None: account = models.Account.pull_by_email(un)
         if account is None:
-            flash('Sorry, your account username / email address is not recognised. Please contact us.')
+            flash('Sorry, your account username / email address is not recognised. Please contact us.', 'warning')
         else:
             newpass = util.generate_password()
             account.set_password(newpass)
@@ -198,11 +198,11 @@ class RegisterForm(Form):
         validators.EqualTo('c', message='Passwords must match')
     ])
     c = PasswordField('Repeat Password')
-    profession = TextField('profession')
-    confirm_public = BooleanField()
-    confirm_terms = BooleanField()
-    mailing_list = BooleanField()
-
+    profession = TextField('Profession')
+    confirm_public = BooleanField('Public',[validators.Required()])
+    confirm_terms = BooleanField('Terms',[validators.Required()])
+    mailing_list = BooleanField('Mailing',[validators.Required()])
+    
 @blueprint.route('/register', methods=['GET', 'POST'])
 def register():
     if not app.config.get('PUBLIC_REGISTER',False) and not current_user.is_super:
@@ -227,6 +227,6 @@ def register():
         flash('Welcome to your account', 'success')
         return redirect('/account/' + account.id)
     if request.method == 'POST' and not form.validate():
-        flash('Please correct the errors', 'error')
+        flash('Please correct the errors', 'danger')
     return render_template('index.html', form=form)
 

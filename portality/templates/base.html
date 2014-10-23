@@ -67,9 +67,9 @@
 
 {% block content %}{% endblock %}
 
-{% if current_user.is_anonymous() and request.path.lstrip('/').split('/')[0] not in ['docs'] %}
+{% if current_user.is_anonymous() and request.path not in ['/account/login','/account/forgot'] and request.path.lstrip('/').split('/')[0] not in ['docs'] %}
 <a name="download"> </a>
-<div class="strap strap-white">
+<div class="strap strap-white" id="downloadbox">
     <div class="container">
         <h1>DOWNLOAD</h1>
         <h1 style="margin-top:0px;">REGISTER</h1>
@@ -79,20 +79,49 @@
             </div>
             <div class="col-md-9">
                 <form id="signupform" method="post" action="{{url_for('account.register')}}">
-                <p><input id="id_name" name="w" placeholder="Username (required)" type="text" class="form-control"></p>
-                <p><input id="id_email" name="n" placeholder="Email address (required)" type="text" class="form-control"></p>
-                <p><input type="password" name="s" placeholder="password" class="form-control"></p>
-                <p><input type="password" name="c" placeholder="confirm password" class="form-control"></p>
+                <p>
+                    <input id="id_name" name="w" placeholder="Username (required)" type="text" class="form-control" 
+                    {% if form %}{% if form.w %}{% if form.w.data %}value="{{ form.w.data }}"{% endif %}{% endif %}{% endif %}></p>
+                    {% if form %}{% if form.w %}{% if form.w.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.w.errors) }}</p>{% endif %}{% endif %}{% endif %}
+                <p>
+                    <input id="id_email" name="n" placeholder="Email address (required)" type="text" class="form-control"
+                    {% if form %}{% if form.n %}{% if form.n.data %}value="{{ form.n.data }}"{% endif %}{% endif %}{% endif %}></p>
+                    {% if form %}{% if form.n %}{% if form.n.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.n.errors) }}</p>{% endif %}{% endif %}{% endif %}
+                <p>
+                    <input type="password" name="s" placeholder="password" class="form-control"></p>
+                    {% if form %}{% if form.s %}{% if form.s.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.s.errors) }}</p>{% endif %}{% endif %}{% endif %}
+                </p>
+                <p>
+                    <input type="password" name="c" placeholder="confirm password" class="form-control"></p>
+                    {% if form %}{% if form.c %}{% if form.c.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.c.errors) }}</p>{% endif %}{% endif %}{% endif %}
                 <p><select id="id_profession" name="profession" class="form-control">
-                    <option value="Student">Student</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Patient">Patient</option>
-                    <option value="Advocate">Advocate</option>
-                    <option value="Academic">Academic</option>
-                    <option value="Researcher">Researcher</option>
-                    <option value="Librarian">Librarian</option>
-                    <option value="Other">Other</option>
-                    <option value="Undisclosed">Prefer not to say</option>
+                    <option value="Student" 
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Student" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Student</option>
+                    <option value="Doctor"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Doctor" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Doctor</option>
+                    <option value="Patient"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Patient" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Patient</option>
+                    <option value="Advocate"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Advocate" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Advocate</option>
+                    <option value="Academic"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Academic" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Academic</option>
+                    <option value="Researcher"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Researcher" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Researcher</option>
+                    <option value="Librarian"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Librarian" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Librarian</option>
+                    <option value="Other"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Other" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Other</option>
+                    <option value="Undisclosed"
+                    {% if form %}{% if form.profession %}{% if form.profession.data == "Undisclosed" %}selected="selected"{% endif %}{% endif %}{% endif %}
+                    >Prefer not to say</option>
                 </select></p>
                 <div class="checkbox"><input id="id_confirm_public" name="confirm_public" type="checkbox" />
                 <label for="id_confirm_public" class="confirm-label">I understand that information obtained by this button will be publicly accessible</label>
