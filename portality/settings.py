@@ -6,7 +6,7 @@ SECRET_KEY = "default-key"
 
 # contact info
 ADMIN_NAME = "Cottage Labs"
-ADMIN_EMAIL = ""
+ADMIN_EMAIL = "sysadmin@openaccessbutton.org"
 
 # service info
 SERVICE_NAME = "Open Access Button"
