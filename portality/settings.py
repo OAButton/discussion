@@ -129,6 +129,7 @@ COMMENTS = ''
 # ========================
 # FEED SETTINGS
 
+BASE_URL = "https://openaccessbutton.org"
 FEED_TITLE = "Open Access Button"
 
 # Maximum number of feed entries to be given in a single response.  If this is omitted, it will
