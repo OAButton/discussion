@@ -80,10 +80,11 @@ def username(username):
         for k, v in newdata.items():
             if k not in ['submit','password']:
                 acc.data[k] = v
-        if 'password' in newdata and not newdata['password'].startswith('sha1'):
+        if 'password' in newdata and not newdata['password'].startswith('sha1') and len(newdata["password"]) > 4:
             acc.set_password(newdata['password'])
         acc.save()
-        flash("Record updated")
+        time.sleep(1)
+        flash("Your account has been updated",'info')
         return render_template('account/view.html', account=acc)
     else:
         if util.request_wants_json():

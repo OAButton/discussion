@@ -126,6 +126,32 @@ DELETE_REMOVES_EP = False # MUST BE THE ETHERPAD API-KEY OR DELETES WILL FAIL
 COMMENTS = ''
 
 
+# ========================
+# FEED SETTINGS
+
+FEED_TITLE = "Open Access Button"
+
+# Maximum number of feed entries to be given in a single response.  If this is omitted, it will
+# default to 20
+MAX_FEED_ENTRIES = 100
+
+# Maximum age of feed entries (in seconds) (default value here is 30 days).
+MAX_FEED_ENTRY_AGE = 2592000
+
+# NOT USED IN THIS IMPLEMENTATION
+# Which index to run feeds from
+#FEED_INDEX = "journal"
+
+# Licensing terms for feed content
+FEED_LICENCE = "(c) Open Access Button 2014. CC-BY."
+
+# name of the feed generator (goes in the atom:generator element)
+FEED_GENERATOR = "CottageLabs feed generator"
+
+# Larger image to use as the logo for all of the feeds
+FEED_LOGO = "https://openaccessbutton.org/static/favicon.ico"
+
+
 '''
     "searchables" : {
         "Google" : "http://www.google.com/search?q=",

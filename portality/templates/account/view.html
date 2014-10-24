@@ -11,7 +11,41 @@
             <h2>{{ account.id }}</h2>
 
             <form action="" method="POST">
-            <p>Soon you'll be able to change your account details and upload a profile pic (or we'll pull your gravatar if you have one :)</p>
+            <p>Soon you'll be able to change more account details and upload a profile pic (or we'll pull your gravatar if you have one :)</p>
+            <p>
+            <select id="id_profession" name="profession" class="form-control" style="margin-bottom:3px;">
+                <option value="Student" 
+                {% if account.data.profession == "Student" %}selected="selected"{% endif %}
+                >Student</option>
+                <option value="Doctor"
+                {% if account.data.profession == "Doctor" %}selected="selected"{% endif %}
+                >Doctor</option>
+                <option value="Patient"
+                {% if account.data.profession == "Patient" %}selected="selected"{% endif %}
+                >Patient</option>
+                <option value="Advocate"
+                {% if account.data.profession == "Advocate" %}selected="selected"{% endif %}
+                >Advocate</option>
+                <option value="Academic"
+                {% if account.data.profession == "Academic" %}selected="selected"{% endif %}
+                >Academic</option>
+                <option value="Researcher"
+                {% if account.data.profession == "Researcher" %}selected="selected"{% endif %}
+                >Researcher</option>
+                <option value="Librarian"
+                {% if account.data.profession == "Librarian" %}selected="selected"{% endif %}
+                >Librarian</option>
+                <option value="Other"
+                {% if account.data.profession == "Other" %}selected="selected"{% endif %}
+                >Other</option>
+                <option value="Undisclosed"
+                {% if account.data.profession == "Undisclosed" %}selected="selected"{% endif %}
+                >Prefer not to say</option>
+            </select>
+            <input name="password" type="text" class="form-control" placeholder="change your password" style="margin-bottom:3px;">
+            <input class="btn btn-action btn-block" type="submit" value="update your account">
+            </p>
+
             </form>
 
             <hr>
