@@ -128,8 +128,8 @@
                 {% if form %}{% if form.confirm_public %}{% if form.confirm_public.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.confirm_public.errors) }}</p>{% endif %}{% endif %}{% endif %}
                 </div>
                 <div class="checkbox"><input id="id_confirm_terms" name="confirm_terms" type="checkbox" />
-                <label for="id_confirm_terms" class="confirm-label">I have read the Open Access Button 
-                <a target="_blank" href="/privacy">privacy policy</a> and I agree 
+                <label for="id_confirm_terms" class="confirm-label">I have read the Open Access Button
+                <a target="_blank" href="/privacy">privacy policy</a> and I agree
                 to the <a target="_blank" href="/terms">terms</a></label>
                 {% if form %}{% if form.confirm_terms %}{% if form.confirm_terms.errors %}<p style="color:red;font-size:0.8em;padding:0 0 10px 10px;margin:-5px 0 0 0;">{{ ", ".join(form.confirm_terms.errors) }}</p>{% endif %}{% endif %}{% endif %}
                 </div>
@@ -155,13 +155,15 @@
         <div class="row">
             <div class="col-md-2">
                 <ul style="list-style-type: none;">
+            <li><a href="https://www.openaccessbutton.org/privacy/">Privacy Policy</a></li>
+            <li><a href="http://www.openaccessbutton.org/terms/">Terms</a></li>
 						<li><a href="mailto:legal@openaccessbutton.org?Subject=Hello" target="_top">Legal</a></li>
 						<li><a href="https://openaccessbutton.org/about/">FAQ</a></li>
 						<li><a href="/blog">Blog</a></li>
 						<li><a href="/contact" target="_top">Contact Us</a></li>
 						<li><a href="mailto:media@openaccessbutton.org?Subject=Hello" target="_top">Press</a></li>
 						<li><a href="https://openaccessbutton.org/support">For Developers</a></li>
-							</ul> 
+							</ul>
             </div>
             <div class="col-md-2">
             </div>
