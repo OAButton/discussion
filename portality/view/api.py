@@ -394,7 +394,11 @@ def _contentmine(value):
     # if not get contentmine to quickscrape it
     # then return the metadata about it
     try:
-        return response.json()
+        rs = response.json()
+        if isinstance(rs,list):
+            return rs[0]
+        else:
+            return rs
     except Exception, e:
         return {"errors": [str(e)]}
 
