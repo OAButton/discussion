@@ -80,7 +80,7 @@ def api():
     resp = make_response( json.dumps({
         "README": {
             "description": "Welcome to the openaccessbutton API.",
-            "documnetation": "http://oabutton.cottagelabs.com/docs",
+            "documentation": "http://oabutton.cottagelabs.com/docs",
             "version": "2.0 - once it is ready"
         }
     }) )
