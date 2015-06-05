@@ -1,0 +1,12 @@
+{
+    "location": {
+        "geo": {
+            "lat": 12.345
+            "lng": 12.345
+        },
+        "country": "COUNTRYNAME",
+        "city": "CITYNAME",
+        "ip": 123.456.789.000
+    },
+    OTHER_RECORD_STUFF_HERE
+}
