@@ -2,7 +2,7 @@
     "location": {
         "geo": {
             "lat": "12.345",
-            "lng": "12.345"
+            "lon": "12.345"
         },
         "country": "COUNTRYNAME",
         "city": "CITYNAME",
