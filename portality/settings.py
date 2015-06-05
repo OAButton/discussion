@@ -50,7 +50,7 @@ MAPPINGS = {
                 },
                 "location.geo": {
                     "type": "geo_point",
-                    "lat_lon": true
+                    "lat_lon": True
                 }
             },
             "date_detection": False,
