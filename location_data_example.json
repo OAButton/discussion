@@ -1,13 +1,13 @@
 {
     "location": {
         "geo": {
-            "lat": 12.345
-            "lng": 12.345
+            "lat": "12.345",
+            "lng": "12.345"
         },
         "country": "COUNTRYNAME",
         "city": "CITYNAME",
-        "ip": 123.456.789.000
+        "ip": "123.456.789.000"
     },
-    PUT_HOWEVER_MANY_OF_THE_ABOVE_THAT_YOU_HAVE_AVAILABLE
-    THEN_OTHER_RECORD_STUFF_HERE_SUCH_AS_USER_BLOCK_STORY_ETC
+    # PUT_HOWEVER_MANY_OF_THE_ABOVE_THAT_YOU_HAVE_AVAILABLE
+    # THEN_OTHER_RECORD_STUFF_HERE_SUCH_AS_USER_BLOCK_STORY_ETC
 }
