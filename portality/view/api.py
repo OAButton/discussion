@@ -2,7 +2,7 @@
 The oabutton API.
 '''
 
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 import json, urllib2, uuid, requests
 
@@ -151,6 +151,14 @@ def retrieve():
             abort(404)
         if exists is not None:
             if exists.check_password(vals.get('password','')):
+                # temporary method for recording that a trust OA user was logged in this way
+                try:
+                    if 'trust' in request.values:
+                        if 'trust' not in exists.data: exists.data['trust_login_date'] = []
+                        exists.data['trust_login_date'].append( datetime.now().strftime("%Y-%m-%d %H%M") )
+                        exists.save()
+                except:
+                    pass
                 resp = make_response(json.dumps({'api_key': exists.data.get('api_key','NONE'), 'username': exists.id}))
                 return resp
             else:
