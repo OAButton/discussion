@@ -154,7 +154,7 @@ def retrieve():
                 # temporary method for recording that a trust OA user was logged in this way
                 try:
                     if 'trust' in request.values:
-                        if 'trust' not in exists.data: exists.data['trust_login_date'] = []
+                        if 'trust_login_date' not in exists.data: exists.data['trust_login_date'] = []
                         exists.data['trust_login_date'].append( datetime.now().strftime("%Y-%m-%d %H%M") )
                         exists.save()
                 except:
