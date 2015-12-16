@@ -41,17 +41,20 @@ def set_current_context():
 def standard_authentication():
     """Check remote_user on a per-request basis."""
     remote_user = request.headers.get('REMOTE_USER', '')
-    if request.json:
-        vals = request.json
-    else:
-        vals = request.values
+    try:
+        api_key = request.json['api_key']
+    except:
+        try:
+            api_key = request.values['api_key']
+        except:
+            api_key = False
     if remote_user:
         user = models.Account.pull(remote_user)
         if user is not None:
             login_user(user, remember=False)
     # add a check for provision of api key
-    elif 'api_key' in vals:
-        res = models.Account.query(q='api_key:"' + vals['api_key'] + '"')['hits']['hits']
+    elif 'api_key':
+        res = models.Account.query(q='api_key:"' + api_key + '"')['hits']['hits']
         if len(res) == 1:
             user = models.Account.pull(res[0]['_source']['id'])
             if user is not None:

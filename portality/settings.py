@@ -48,9 +48,13 @@ MAPPINGS = {
                     "type": "date",
                     "format" : "yyyy-MM-dd mmss||date_optional_time"
                 },
-                "location.geo": {
-                    "type": "geo_point",
-                    "lat_lon": True
+                "location": {
+                    "properties": {
+                        "geo": {
+                            "type": "geo_point",
+                            "lat_lon": True              
+                        }
+                    }
                 }
             },
             "date_detection": False,

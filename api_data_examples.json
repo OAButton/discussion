@@ -1,0 +1,38 @@
+{
+  "story": "Blah blah this is why I want this article.",
+  "url": "The URL to the page that this block message is about, which can also appear in the bibjson metadata link fields below",
+  "location": {
+    "geo": {
+      "lat": "12.345",
+      "lon": "12.345"
+    },
+    "country": "COUNTRYNAME",
+    "city": "CITYNAME",
+    "ip": "123.456.789.000",
+    "other": "you could put other location data in here, using whichever keys suit you, they will be treated as strings. Location data fields are optional, provide whichever ones you can"
+  },
+  "email": ["author@author.com","this is a list of any author emails that could be found on the page"],
+  "metadata": {
+    "title": "Provide any article metadata that can be retrieved from the page in here, following okfnlabs.org/bibjson convention - but NOTE metadata is OPTIONAL",
+    "journal": {
+      "name": "Some journal name - and other useful journal data in keys here. Used in DOAJ too"
+    },
+    "author": [
+      {
+        "name": "Mark MacGillivray",
+        "email": "me@mine.com"
+      }
+    ],
+    "link": [
+      {
+        "url": "https://openaccessbutton.org"
+      }
+    ],
+    "identifier": [
+      {
+        "type": "doi (or whatever sort of identifier it is)",
+        "id": "10.1186/1758-2946-3-47"
+      }
+    ]
+  }
+}

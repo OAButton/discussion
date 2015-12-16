@@ -80,8 +80,8 @@ def api():
     resp = make_response( json.dumps({
         "README": {
             "description": "Welcome to the openaccessbutton API.",
-            "documentation": "http://oabutton.cottagelabs.com/docs",
-            "version": "2.0 - once it is ready"
+            "documentation": "https://openaccessbutton.org/docs",
+            "version": "2.1"
         }
     }) )
     resp.mimetype = "application/json"
@@ -246,6 +246,60 @@ def wishlist():
         resp = make_response( json.dumps( {'url':vals.get('url',''), 'id':wish.id } ) )
         resp.mimetype = "application/json"
         return resp
+    except Exception, e:
+        resp = make_response(json.dumps({'errors': [str(e)]}))
+        resp.mimetype = "application/json"
+        return resp, 400
+
+
+@blueprint.route('/request', methods=['POST'])
+@blueprint.route('/request/<rid>', methods=['POST'])
+@util.jsonp
+@login_required
+@crossdomain(origin='*')
+def req(rid=None):
+    try:
+        if request.json:
+            vals = request.json
+        else:
+            vals = request.values
+        if rid:
+            rq = models.Request.pull(rid)
+            if rq is None: abort(404)
+            # TODO this should be a receipt of the article we want, either a file or a link to it
+            # or an explanation as to why it is not being provided - update the request with the information
+            # look for the url in our catalogue, find metadata about it, and record somewhere that we now have a stored copy of it
+            # also should users who have this url on their requests or wishlist receive an email saying it is in?
+        else:
+            # TODO check how many requests this user has made in the last X
+            # disallow if above rate limit X
+            if False:
+                resp = make_response( json.dumps( {'refused': 'user has reached request limit' } ) )
+                resp.mimetype = "application/json"
+                return resp, 403
+                
+            rq = models.Request()
+            rq.data['url'] = vals.get('url','')
+            rq.data['author'] = vals.get('author',[])
+            if not isinstance(rq.data['author'],list) and ',' in rq.data['author']: rq.data['author'] = rq.data['author'].split(',')
+            rq.data['email'] = vals.get('email','')
+            if not isinstance(rq.data['email'],list) and  ',' in rq.data['email']: rq.data['email'] = rq.data['email'].split(',')
+            rq.data['user_id'] = current_user.id
+
+            # check if we have already emailed one of these authors about this url
+            found = False
+            for e in rq.data['email']:
+                check = models.Request.check(e, rq.data['url'])
+                if check.hits.total != 0 and not found:
+                    resp = make_response( json.dumps( {'info':'already exists, added to user wishlist', 'url':vals.get('url',''), 'id':check['hits']['hits'][0]['_source']['id'] } ) )
+                    # TODO add this url to this user wishlist (and update wishlist display to track requests sent)
+                    found = True
+            if not found:
+                rq.save()
+                # send an email to the author!
+                resp = make_response( json.dumps( {'url':vals.get('url',''), 'id':rq.id } ) )
+            resp.mimetype = "application/json"
+            return resp
     except Exception, e:
         resp = make_response(json.dumps({'errors': [str(e)]}))
         resp.mimetype = "application/json"
