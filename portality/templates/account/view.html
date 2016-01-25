@@ -14,7 +14,7 @@
             <p>Soon you'll be able to change more account details and upload a profile pic (or we'll pull your gravatar if you have one :)</p>
             <p>
             <select id="id_profession" name="profession" class="form-control" style="margin-bottom:3px;">
-                <option value="Student" 
+                <option value="Student"
                 {% if account.data.profession == "Student" %}selected="selected"{% endif %}
                 >Student</option>
                 <option value="Doctor"
@@ -56,23 +56,23 @@
             <p>Or get the button for:</p>
             <p>
             <a class="btn btn-info" target="_blank" href="https://chrome.google.com/webstore/detail/open-access-button/gknkbkaapnhpmkcgkmdekdffgcddoiel">Chrome</a>
-            <a class="btn btn-info" target="_blank" href="https://github.com/OAButton/oab-fxaddon/releases/download/v1.3/oab-fxaddon.xpi">Firefox</a>
+            <a class="btn btn-info" target="_blank" href="https://addons.mozilla.org/en-GB/firefox/addon/openaccessbutton/">Firefox</a>
             <a class="btn btn-info" target="_blank" href="https://play.google.com/store/apps/details?id=org.openaccessbutton.openaccessbutton">Android</a>
             </p>
-            
+
             <hr>
 
             <p>Your bookmarklet code is:<br>
             <pre><code>javascript:(function(){oabuid='{{account.data['api_key']}}';_my_script=document.createElement('SCRIPT');_my_script.type='text/javascript';_my_script.src='https://openaccessbutton.org/static/oabutton_includer.js?';document.getElementsByTagName('head')[0].appendChild(_my_script);}())</code></pre></p>
-            
+
             <p>Your API key is:<br>
             <pre><code>{{account.data['api_key']}}</code></pre></p>
-                    
+
             <hr>
-            
+
             <p><a href="#" id="delete" class="btn btn-danger btn-xs btn-block">Delete your account - cannot be undone!</a></p>
         </div>
-        
+
         <div class="col-md-8">
             <h2>Your wishlist</h2>
             <table class="table table-striped table-bordered">
@@ -82,7 +82,7 @@
                 </td></tr>
             {% endfor %}
             </table>
-            
+
             <h2 style="padding-top:40px;">Coming soon...</h2>
             <p>A list of the articles you wished for, and received!</p>
             <p>The ability to create groups of users with related research interests!</p>
@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
         details += '</td></tr>';
         return details;
     }
-        
+
     var cshowresults = function(data) {
         var restable = '<table id="searchresulttable" class="table table-striped table-bordered" style="background:white;">';
         for ( var r in data.hits.hits ) {
@@ -146,7 +146,7 @@ jQuery(document).ready(function() {
             <span class="graphview_total searchcontrols" style="font-size:16px;font-weight:bold;color:#999;"></span>';
         ui += ' <span class="graphview_loading">... LOADING</span>';
         ui += '</div>';
-        
+
         ui += '<div class="searchcontrols" style="float:right;display:inline;">';
         ui += ' <a id="closesearch" class="close" href="#" style="font-size:1.4em;padding-left:20px;" alt="close the search" title="close the search">&times;</a>';
         ui += '</div>';
@@ -185,7 +185,7 @@ jQuery(document).ready(function() {
         showresults: cshowresults,
         uitemplate: cuitemplate
     });
-    
+
 
     var deleteme = function(event) {
         event.preventDefault();
@@ -203,4 +203,3 @@ jQuery(document).ready(function() {
 </script>
 
 {% endblock %}
-
