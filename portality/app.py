@@ -53,7 +53,7 @@ def standard_authentication():
         if user is not None:
             login_user(user, remember=False)
     # add a check for provision of api key
-    elif 'api_key':
+    elif api_key:
         res = models.Account.query(q='api_key:"' + api_key + '"')['hits']['hits']
         if len(res) == 1:
             user = models.Account.pull(res[0]['_source']['id'])
