@@ -6,27 +6,24 @@ We all know the frustration of finding the research paper you need, but you can'
 
 Following the re-launch of the Open Access Button in Open Access Week, we are working hard to build and expand in the coming months. Clear instructions for contributing will follow soon but until then, feel free to check out the Wiki and Issues to see how you can help, or email Joe@openaccessbutton.org.
 
-## This Repository
-
-In this repository you will find the all the code that runs the backend of the Open Access Button. The client-side code can be found in the following repositories.
-[Firefox App](https://github.com/OAButton/oab-fxaddon)
-[Chrome App](https://github.com/OAButton/oab-chromeaddon)
-
-We are use the wiki for our project management around the technical development of the Open Access Button, although at the moment that is mostly just the minutes from development calls.
-
 ## Open Access Button Repositories
 
 First of all, we have a few different repos here:
 
 * https://github.com/OAButton/backend
-    - This is the main backend. It includes the code for the website, as well as the database of user stories that we have gathered from people.
-    - The other repos connect to this, and act as different front-ends.
+    - This repo is used to discuss backend work. However, openaccessbutton and opendatabutton actually work by using the Cottage Labs API, so there is no functional code in this repo. Any future code specifically required for backend functionality for OAB / ODB could be put here if it cannot go in the CL API.
+    - OAB and ODB are the first examples of developing various front-end services that can work entirely via the CL API, saving the need for dedicated backend development and maintenance.
+    - The CL API code can be found at https://github.com/CottageLabs/api
+* https://github.com/OAButton/oab_static
+    - the static site content for https://openaccessbutton.org
+* https://github.com/OAButton/odb_static
+    - The static site content for https://opendatabutton.org
+* https://github.com/OAButton/unified-extension
+    - This is where we are developing our new unified extension, for use in chrome and firefox (to become live in Autumn 2016)
 * https://github.com/OAButton/oab-fxaddon
-    - This is the Firefox addon.
+    - This is the Firefox addon (soon to be deprecated)
 * https://github.com/OAButton/oab-chromeaddon
-    - Our Chrome (and Chromium) addon.
-* https://github.com/OAButton/OAButton_old
-    - This is the old proof of concept bookmarklet and is no longer supported.
+    - Our Chrome (and Chromium) addon (soon to be deprecated)
 
 ## Development
 
