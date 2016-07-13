@@ -52,29 +52,29 @@ Who are the people you see commonly in this repo at the moment?
 * Chealsye: Our communications lead who discusses bits and pieces
 * a variety of other contributors who pop in and out
 
-we're all super friendly, say hello! 
+we're all super friendly, say hello! The people involved in the project more broadly can be found here: https://openaccessbutton.org/about#team
 
 ### Terms [work in progress]
 
 We have lots of different names and concepts in the tools now, and it can be hard to know what on earth people are talking about. Below is a work in progress glossary. 
 
-*Sign up: Someone for whom we have an email
-*User: Someone with the app installed
-*Advocate: Someone who as taken action to directly engage an author, or share the tool. 
-*External User: Someone making a block or request via external service (not via request page or apps) e.g PeerLibrary or Sparrow
-*People: Catch all for all user types
-*Resource: A paper, dataset, program or other material associated with a paper (e.g plasmid)
-*Block Story: User or advocate generated message associated with a story
-*Block:Any instance an individual can’t access a resource they want. A paper can have multiple blocks associated with it, e.g one block for the paper and one for the data.
-*Found: A resource delivered automatically via a repository or search engine (i.e available and discoverable) 
-*Block Meta-Data: Paper URL, paper metadata, User type, User location associated with a block
-*Inactive Block Rate: A block whose resource wasn’t found, and with no associated request
-*Request: An active request from a user for us to find access to a resource, usually via an author
-*Support: Taking an action to ... ??? 
-*Success: Delivery of a resource to a user or advocate (or acceptable reason why resource can’t be delivered) that couldn’t be found via automated means
-*Active *: Interacting with or logging a block in the past month
-*Former *: Not interacting with or logging a blog in the past 4 months
-*Service ready * A person, resource, request, story, block can be tied to an institution part of the OAB service (e.g funder, university, publisher)
+* Sign up: Someone for whom we have an email
+* User: Someone with the app installed
+* Advocate: Someone who as taken action to directly engage an author, or share the tool. 
+* External User: Someone making a block or request via external service (not via request page or apps) e.g PeerLibrary or Sparrow
+* People: Catch all for all user types
+* Resource: A paper, dataset, program or other material associated with a paper (e.g plasmid)
+* Block Story: User or advocate generated message associated with a story
+* Block:Any instance an individual can’t access a resource they want. A paper can have multiple blocks associated with it, e.g one block for the paper and one for the data.
+* Found: A resource delivered automatically via a repository or search engine (i.e available and discoverable) 
+* Block Meta-Data: Paper URL, paper metadata, User type, User location associated with a block
+* Inactive Block Rate: A block whose resource wasn’t found, and with no associated request
+* Request: An active request from a user for us to find access to a resource, usually via an author
+* Support: Taking an action to ... ??? 
+* Success: Delivery of a resource to a user or advocate (or acceptable reason why resource can’t be delivered) that couldn’t be found via automated means
+* Active *: Interacting with or logging a block in the past month
+* Former *: Not interacting with or logging a blog in the past 4 months
+* Service ready * A person, resource, request, story, block can be tied to an institution part of the OAB service (e.g funder, university, publisher)
 
 ## License
 
