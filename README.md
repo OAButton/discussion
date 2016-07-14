@@ -7,6 +7,11 @@
 
 If you want to help us build the tools, here are some helpful bigs of information! We'll start putting more here soon as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
 
+### Metrics
+
+All current metrics found at: [a URL I need to know if Mark is willing to share]
+All users can be found here if you have admin access: https://opendatabutton.org/admin/openaccessbutton
+
 ### Open Access/Data Button Repositories
 
 First of all, we have a few different repos here:
