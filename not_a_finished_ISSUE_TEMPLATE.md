@@ -1,5 +1,10 @@
 To include
-* Use case template
+* General tips
+-- Good to include how can close
+* Use case template + link to tips
+
+<<Person>> wants to <<do something>> because <<reason>> 
+
 * Bug report template
 
 ### Expected Behavior
