@@ -4,7 +4,7 @@ This file is still in development. But, if you want to help, go for it.
 
 ## What is a Persona? 
 
-In user-centered design, personas are fictional characters created to represent the different user types that might use a site, brand, or product in a similar way. Personas are useful in considering the goals, desires, and limitations of brand buyers and users in order to help to guide decisions about a service, product or interaction space such as features, interactions, and visual design of a website. Wikipedia(https://en.wikipedia.org/wiki/Persona_(user_experience))
+In user-centered design, personas are fictional characters created to represent the different user types that might use a site, brand, or product in a similar way. Personas are useful in considering the goals, desires, and limitations of brand buyers and users in order to help to guide decisions about a service, product or interaction space such as features, interactions, and visual design of a website. https://en.wikipedia.org/wiki/Persona_(user_experience)(Wikipedia)
 
 ## Making our Personas 
 
@@ -24,6 +24,6 @@ A user persona is a representation of the goals and behavior of a hypothesized g
 
 ### George 
 
-## Leopard
+### Leopard
 
 None of these names are in any way just the names of cats I've live with at points in time. No sir. 
