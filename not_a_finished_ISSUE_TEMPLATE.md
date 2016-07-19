@@ -15,3 +15,5 @@ What's it doing?
 
 ### Steps to Reproduce this bug
 Please include any info about the version of the tool you're using and your system.
+
+A blog on ace issues: https://www.zenhub.com/blog/best-practices-for-github-issues/
