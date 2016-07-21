@@ -1,11 +1,19 @@
 <a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
 #  Open Access Button and Open Data Button
-========
-## Push Button. Get Research. Make Progress.
+
+We're currently working on revamping out Github presence, so our Readme's are in flux. They contain a host of useful information alongside notes. Stay tuned for more. 
+
+## About the project
 
 ## Getting Started
 
 If you want to help us build the tools, here are some helpful bigs of information! We'll start putting more here soon as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
+
+## Ways to contribute
+
+* Help us test
+* Dig into a "non-code" issue
+* Do some coding
 
 ### Metrics
 
