@@ -1,11 +1,13 @@
 To include
 * General tips
 -- Good to include how can close
-* Use case template + link to tips
+A blog on ace issues: https://www.zenhub.com/blog/best-practices-for-github-issues/
 
-<<Person>> wants to <<do something>> because <<reason>> 
+## Use case template
 
-* Bug report template
+<Person> wants to <do something> because <reason>
+
+## Bug report template
 
 ### Expected Behavior
 What did you expect it to do? 
@@ -15,5 +17,3 @@ What's it doing?
 
 ### Steps to Reproduce this bug
 Please include any info about the version of the tool you're using and your system.
-
-A blog on ace issues: https://www.zenhub.com/blog/best-practices-for-github-issues/
