@@ -4,8 +4,7 @@ To include
 A blog on ace issues: https://www.zenhub.com/blog/best-practices-for-github-issues/
 
 ## Use case template
-
-<Person> wants to <do something> because <reason>
+*Person* wants to *do something* because *reason*
 
 ## Bug report template
 
