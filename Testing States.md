@@ -5,6 +5,7 @@
 * [Bad] Unknown Error
 * [Bad] Not on a article (that isn't in our known list of bad pages)
 * [Bad] On a known filter page
+* [Good] Not logged in
 * [Good for data][Bad for Articles] On an Open Access Article
 * [Good] On a paywall
 
