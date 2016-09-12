@@ -2,12 +2,12 @@
 
 ## Plugin
 
-* [Bad] Backend Error
-* [Bad] Not on a article page, but where that page isn't in our known list of filter pages
-* [Bad] On a known filter page
-* [Good] Not logged in
-* [Good for data][Bad for Articles] On an Open Access Article
-* [Good] On a paywall
+* Backend Error
+* Not on a article page, but where that page isn't in our known list of filter pages
+* On a known filter page
+* Not logged in
+* On an Open Access Article
+* On a paywall
 
 ## Website
 
