@@ -2,7 +2,7 @@
 
 ## Plugin
 
-* [Bad] Unknown Error
+* [Bad] Backend Error
 * [Bad] Not on a article (that isn't in our known list of bad pages)
 * [Bad] On a known filter page
 * [Good] Not logged in
