@@ -34,9 +34,14 @@ This step looks to find targets (authors or co-authors) for a request and a way 
 
 ### Awaiting contact
 
-This is a reccuring step, whenever we try and make contact.
+* Final alternative ways to reach out (e.g Twitter / Acadedemia)
+* Check address
+
+This is a reccuring step, whenever we try and make contact. 
 
 ### On Hold
+
+* [data only] Offer to support the author making it availiable
 
 This is where an author has got back to us, but needs time to respond
 
