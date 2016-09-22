@@ -17,7 +17,11 @@ Hi! Thanks for filling an issue! Here are some tips on writing great issues.
 
 ## Feature request
 
-### How you want some
+For a great feature request note:
+
+* Be specific
+* Make why you'd like the feature clear
+* Make clear when you'd consider a feature "done"
 
 ## Use case template
 * **Person** wants to **do something** because **reason** *
