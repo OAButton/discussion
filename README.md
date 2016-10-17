@@ -15,9 +15,10 @@ If you want to help us build the tools, here are some helpful bigs of informatio
 
 ### Ways to contribute
 
-* (Take an hour out of your day give us some feedback on the tool)[https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form]
-* Dive into a (starter issue)[https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22]
-* Take on a (quick fix)[https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22], or (bug)[https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22+label%3Abug]. 
+* [Take an hour out of your day give us some feedback on the tool]
+(https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form)
+* Dive into a [starter issue](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+* Take on a [quick fix](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22), or [bug](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22+label%3Abug). 
 
 or if you're not interesting in the technical side of things we'd love your help talking to users (potential, new & old) and scheming for how to making things better. 
 
