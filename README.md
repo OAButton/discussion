@@ -1,50 +1,41 @@
 <a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
-#  Open Access Button and Open Data Button
+#  Open Access Button
 
-We're currently working on revamping out Github presence, so our Readme's are in flux. They contain a host of useful information alongside notes. Stay tuned for more. 
+## Welcome! 
+
+Hi, welcome to Github. This is where the Open Access Button keeps all it's code, discusses huge amounts of our work & more. It's all openly availiable, and we do it here because we want your help. 
 
 ## About the project
+
+The Open Access Button is an app that helps researchers, patients, students and the public get legal access to research they need and request research be made available. Since November 2013, we have made 15,000 requests for research articles and data.
 
 ## Getting Started
 
 If you want to help us build the tools, here are some helpful bigs of information! We'll start putting more here soon as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
 
-## Ways to contribute
+### Ways to contribute
 
-* Help us test
-* Dig into a "non-code" issue
-* Do some coding
+* (Take an hour out of your day give us some feedback on the tool)[https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form]
+* Dive into a (starter issue)[https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22]
+* Take on a (quick fix)[https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22], or (bug)[https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22+label%3Abug]. 
 
-### Metrics
+or if you're not interesting in the technical side of things we'd love your help talking to users (potential, new & old) and scheming for how to making things better. 
 
-All current metrics found at: [a URL I need to know if Mark is willing to share]
-All users can be found here if you have admin access: https://openaccessbutton.org/admin/openaccessbutton
+### Open Access Button Repositories
 
-### Testing Sites
-
-* Website: oab.test.cottagelabs.com
-* Plugin: oabe.test.cottagelabs.com/html/main.html
-
-### Open Access/Data Button Repositories
-
-First of all, we have a few different repos here:
+We have a few different repos here:
 
 * https://github.com/OAButton/backend
-    - This repo is used to discuss backend work. However, openaccessbutton and opendatabutton actually work by using the Cottage Labs API, so there is no functional code in this repo. Any future code specifically required for backend functionality for OAB / ODB could be put here if it cannot go in the CL API.
-    - OAB and ODB are the first examples of developing various front-end services that can work entirely via the CL API, saving the need for dedicated backend development and maintenance.
-    - The CL API code can be found at https://github.com/CottageLabs/api
+    - This repo is used to discuss all technical work. However, open access button works by using the Cottage Labs API, so there is no functional code in this repo.
+    - OAB is the first examples of developing various front-end services that can work entirely via the CL API, saving the need for dedicated backend development and maintenance. The CL API code can be found at https://github.com/CottageLabs/api
 * https://github.com/OAButton/oab_static
-    - the static site content for https://openaccessbutton.org
+    - the site content for https://openaccessbutton.org
     - you'll find info on editing the site here
-* https://github.com/OAButton/odb_static
-    - The static site content for https://opendatabutton.org
-    - You'll find info on editing the site here
 * https://github.com/OAButton/unified-extension
-    - This is where we are developing our new unified extension, for use in chrome and firefox (to become live in Autumn 2016)
-* https://github.com/OAButton/oab-fxaddon
-    - This is the Firefox addon (soon to be deprecated)
-* https://github.com/OAButton/oab-chromeaddon
-    - Our Chrome (and Chromium) addon (soon to be deprecated)
+    - This is where we have developed our unified extension, for use in chrome and firefox
+* https://github.com/OAButton/bookmarklet
+    - This is where we have developed our bookmarklet, for use in all good bookmark bars near you. 
+
 * we have other repo's but they're not being actively worked on or supported. 
 
 ### Getting in touch
@@ -61,19 +52,19 @@ What do the various labels/assignments mean for the project?
 
 Assignment to a milestone is confirmation we're planning to do something. Otherwise, we're not currently planning to do much with it and the issue is just there for safe keeping incase one day we do. 
 
-### People [work in progress]
+### People
 
 Who are the people you see commonly in this repo at the moment? 
 
 * Joe: Co-founder of the project
 * Mark: Lead dev from Cottage Labs
-* Steve: Dev from Cottage Labs, usually working on plugins
 * Chealsye: Our communications lead who discusses bits and pieces
+* Megan: Does a lot of testing for the Button
 * a variety of other contributors who pop in and out
 
 we're all super friendly, say hello! The people involved in the project more broadly can be found here: https://openaccessbutton.org/about#team
 
-### Terms [work in progress]
+### Terms
 
 We have lots of different names and concepts in the tools now, and it can be hard to know what on earth people are talking about. Below is a work in progress glossary. 
 
@@ -93,7 +84,15 @@ We have lots of different names and concepts in the tools now, and it can be har
 * Success: Delivery of a resource to a user or advocate (or acceptable reason why resource can’t be delivered) that couldn’t be found via automated means
 * Active *: Interacting with or logging a block in the past month
 * Former *: Not interacting with or logging a blog in the past 4 months
-* Service ready * A person, resource, request, story, block can be tied to an institution part of the OAB service (e.g funder, university, publisher)
+
+### Users
+
+All users can be found here if you have admin access: https://openaccessbutton.org/admin/openaccessbutton
+
+### Testing Sites
+
+* Website: http://oab.test.cottagelabs.com/
+* Plugin: http://oabe.test.cottagelabs.com/html/main.html
 
 ## License
 
