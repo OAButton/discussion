@@ -3,7 +3,7 @@
 
 ## Welcome! 
 
-Hi, welcome to Github. This is where the Open Access Button keeps all it's code, discusses huge amounts of our work & more. It's all openly availiable, and we do it here because we want your help. 
+Hi, welcome to Github. Github is where the Open Access Button keeps all it's code, discusses huge amounts of our work & more. It's all openly availiable, and we do it here because we want your help. 
 
 ## About the project
 
@@ -11,7 +11,12 @@ The Open Access Button is an app that helps researchers, patients, students and 
 
 ## Getting Started
 
-If you want to help us build the tools, here are some helpful bigs of information! We'll start putting more here soon as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
+If you want to help us build the tools, here are some helpful bits of information! We'll start putting more here soon as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
+
+### Quick Guide
+
+* Make an issue (to start a discussion, file a bug or make a suggestion): https://github.com/OAButton/backend/issues/new 
+* Contibute code: You're in the wrong place, see our other repos (below)
 
 ### Ways to contribute
 
@@ -36,20 +41,28 @@ We have a few different repos here:
     - This is where we have developed our unified extension, for use in chrome and firefox
 * https://github.com/OAButton/bookmarklet
     - This is where we have developed our bookmarklet, for use in all good bookmark bars near you. 
+*  https://github.com/OAButton/project-management
+    - This is where we discuss project management stuff, and roughly plan the future.  
 
 * we have other repo's but they're not being actively worked on or supported. 
 
 ### Getting in touch
 
-We have decided not to use a general mailing list (because who needs another list?), and have decided to work through issues here on Github. General queries and issues are best dealt with in the [backend repo](https://github.com/OAButton/backend/issues). We use Zenhub for some extra lays of co-ordination Github isn't so good at yet.
+We have decided not to use a general mailing list (because who needs another list?), and have decided to work through issues here on Github. General queries and issues are best dealt with in the [backend repo](https://github.com/OAButton/backend/issues/new). We use Zenhub for some extra layers of co-ordination that Github isn't so good at yet.
 
-### Labels and Milestone crib sheet
+### Labels, Milestones & other notes on how we use issues
+
+Important: Before a change is tested on the development site, an issue can't be considered completed. This counts even for simple copy changes. 
 
 What do the various labels/assignments mean for the project?
+
 * Bug: something that isn't working as expected
-* Enhancement: a way to improve something
-* Question: a question or topic of discussion
+* Enhancement: a way to improve something, usually a new requirement
+* Question / Discussion: a question or topic of discussion. Doesn't denote we should actually do something, just think about it. 
 * help wanted: we'd love help here! (coming soon: good first bugs)
+* Plugin / Bookmarklet / Website / Emails / Admin: the place the issue relates too
+* Priority: more important than other things in a catagory
+* Blocked * : We need * in order the close the issue or move it forwards
 
 Assignment to a milestone is confirmation we're planning to do something. Otherwise, we're not currently planning to do much with it and the issue is just there for safe keeping incase one day we do. 
 
@@ -76,7 +89,7 @@ We have lots of different names and concepts in the tools now, and it can be har
 * People: Catch all for all user types
 * Resource: A paper, dataset, program or other material associated with a paper (e.g plasmid)
 * Block Story: User or advocate generated message associated with a story
-* Block:Any instance an individual can’t access a resource they want. A paper can have multiple blocks associated with it, e.g one block for the paper and one for the data.
+* Block: Any instance an individual can’t access a resource they want. A paper can have multiple blocks associated with it, e.g one block for the paper and one for the data.
 * Found: A resource delivered automatically via a repository or search engine (i.e available and discoverable) 
 * Block Meta-Data: Paper URL, paper metadata, User type, User location associated with a block
 * Inactive Block Rate: A block whose resource wasn’t found, and with no associated request
@@ -86,15 +99,16 @@ We have lots of different names and concepts in the tools now, and it can be har
 * Active *: Interacting with or logging a block in the past month
 * Former *: Not interacting with or logging a blog in the past 4 months
 
-### Users
+### Admin
 
-All users can be found here if you have admin access: https://openaccessbutton.org/admin/openaccessbutton
+All users and email functionality can be found here if you have admin access: https://openaccessbutton.org/admin/
 
 ### Testing Sites
 
 * Website: http://oab.test.cottagelabs.com/
 * Plugin: http://oabe.test.cottagelabs.com/html/main.html
-
+* Bookmarlet: http://oabb.test.cottagelabs.com/
+* Emails: You can see emails via the backend
 ## License
 
-We <3 Open Source. All of our code is licenced under an MIT licence and all site content is licenced CC-BY.
+We <3 Open Source. All of our code is licenced under an MIT licence and all site content is licenced CC-BY. Moreover, we try to be an open project general with much of our discussion & plans availiable to all. 
