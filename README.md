@@ -40,11 +40,11 @@ We have a few different repos here:
 * https://github.com/OAButton/unified-extension
     - This is where we have developed our unified extension, for use in chrome and firefox
 * https://github.com/OAButton/bookmarklet
-    - This is where we have developed our bookmarklet, for use in all good bookmark bars near you. 
-*  https://github.com/OAButton/project-management
-    - This is where we discuss project management stuff, and roughly plan the future.  
+    - This is where we have developed our bookmarklet, for use in all good bookmark bars near you.
+* https://github.com/OAButton/project-management
+    - This is where we discuss project management stuff, and roughly plan the future.
 
-* we have other repo's but they're not being actively worked on or supported. 
+* we have other repo's but they're not being actively worked on or supported.
 
 ### Getting in touch
 
