@@ -63,6 +63,7 @@ What do the various labels/assignments mean for the project?
 * Plugin / Bookmarklet / Website / Emails / Admin: the place the issue relates too
 * Priority: more important than other things in a catagory
 * Blocked * : We need * in order the close the issue or move it forwards
+* Jisc: This label shows work supported by Jisc (thanks Jisc!). 
 
 Assignment to a milestone is confirmation we're planning to do something. Otherwise, we're not currently planning to do much with it and the issue is just there for safe keeping incase one day we do. 
 
