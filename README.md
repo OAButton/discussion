@@ -35,14 +35,15 @@ We have a few different repos here:
     - This repo is used to discuss all technical work. However, open access button works by using the Cottage Labs API, so there is no functional code in this repo.
     - OAB is the first examples of developing various front-end services that can work entirely via the CL API, saving the need for dedicated backend development and maintenance. The CL API code can be found at https://github.com/CottageLabs/api
 * https://github.com/OAButton/oab_static
-    - the site content for https://openaccessbutton.org
-    - you'll find info on editing the site here
+    - Contains code for
+        - site content for https://openaccessbutton.org
+        - bookmarklet code
+        - emails
+    - you'll find info on editing the site in the readme
 * https://github.com/OAButton/unified-extension
     - This is where we have developed our unified extension, for use in chrome and firefox
-* https://github.com/OAButton/bookmarklet
-    - This is where we have developed our bookmarklet, for use in all good bookmark bars near you.
 * https://github.com/OAButton/project-management
-    - This is where we discuss project management stuff, and roughly plan the future.
+    - This is where we discuss project management, and roughly plan the future.
 
 * we have other repo's but they're not being actively worked on or supported.
 
@@ -109,7 +110,8 @@ All users and email functionality can be found here if you have admin access: ht
 * Website: http://oab.test.cottagelabs.com/
 * Plugin: http://oabe.test.cottagelabs.com/html/main.html
 * Bookmarlet: http://oabb.test.cottagelabs.com/
-* Emails: You can see emails via the backend
+* Emails: You can see emails via the testing site's admin interface. They're also [viewable here](https://github.com/OAButton/oab_static/tree/develop/emails)
+
 ## License
 
 We <3 Open Source. All of our code is licenced under an MIT licence and all site content is licenced CC-BY. Moreover, we try to be an open project general with much of our discussion & plans availiable to all. 
