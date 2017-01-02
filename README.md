@@ -15,7 +15,7 @@ If you want to help us build the tools, here are some helpful bits of informatio
 
 ### Quick Guide
 
-* Make an issue (to start a discussion, file a bug or make a suggestion): https://github.com/OAButton/backend/issues/new 
+* Make an issue (to start a discussion, file a bug or make a suggestion) in the "discussion" repository: https://github.com/OAButton/backend/issues/new 
 * Contibute code: You're in the wrong place, see our other repos (below)
 
 ### Ways to contribute
