@@ -1,5 +1,5 @@
 <a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
-<a href="https://www.browserstack.com/start"><img src="https://raw.githubusercontent.com/OAButton/discussion/master/Logo-01.svg"></a>
+<a href="https://www.browserstack.com/start"><img src="https://github.com/OAButton/discussion/blob/master/Screen%20Shot%202017-01-08%20at%2008.52.37.png?raw=true"></a>
 
 #  Open Access Button
 
