@@ -1,5 +1,4 @@
 <a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
-<a href="https://www.browserstack.com/start"><img src="https://github.com/OAButton/discussion/blob/master/Screen%20Shot%202017-01-08%20at%2008.52.37.png?raw=true"></a>
 
 #  Open Access Button
 
@@ -117,12 +116,18 @@ We have lots of different names and concepts in the tools now, and it can be har
 
 All users and email functionality can be found here if you have admin access: https://openaccessbutton.org/admin/
 
-### Testing Sites
+### Testing Sites & Processes
 
 * Website: http://oab.test.cottagelabs.com/
 * Plugin: http://oabe.test.cottagelabs.com/html/main.html
 * Bookmarlet: http://oabb.test.cottagelabs.com/
 * Emails: You can see emails via the testing site's admin interface. They're also [viewable here](https://github.com/OAButton/oab_static/tree/develop/emails)
+
+To aid with testing, we have accounts at:
+
+* Peak & Usertesting
+* Browserstack (for multibrowser / device testing)
+<a href="https://www.browserstack.com/start"><img src="https://github.com/OAButton/discussion/blob/master/Screen%20Shot%202017-01-08%20at%2008.52.37.png?raw=true" style="width: 50px;></a>
 
 ## License
 
