@@ -127,7 +127,7 @@ To aid with testing, we have accounts at:
 
 * Peak & Usertesting
 * Browserstack (for multibrowser / device testing)
-<a href="https://www.browserstack.com/start"><img src="https://github.com/OAButton/discussion/blob/master/Screen%20Shot%202017-01-08%20at%2008.52.37.png?raw=true" style="width: 50px;></a>
+<a href="https://www.browserstack.com/start"><img src="https://github.com/OAButton/discussion/blob/master/Screen%20Shot%202017-01-08%20at%2008.52.37.png?raw=true" style="width: 50px;"></a>
 
 ## License
 
