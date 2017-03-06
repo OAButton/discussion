@@ -12,21 +12,21 @@ The Open Access Button is an app that helps researchers, patients, students and 
 
 ## Getting Started
 
-If you want to help us build the tools, here are some helpful bits of information! We'll start putting more here soon as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
+If you want to help us build the tools, here are some helpful bits of information! We'll start putting more here soon, as it's harder than it should be to dive in and help right now! Let us know what you'd like to see. 
 
 ### Quick Guide
 
 * Make an issue (to start a discussion, file a bug or make a suggestion) in the "discussion" repository: https://github.com/OAButton/backend/issues/new 
-* Contibute code: You're in the wrong place, see our other repos (below)
+* Contribute code: You're in the wrong place, see our other repos (below)
 
 ### Ways to contribute
 
-* [Take an hour out of your day give us some feedback on the tool]
+* [Take an hour out of your day to give us some feedback on the tool]
 (https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form)
 * Dive into a [starter issue](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 * Take on a [quick fix](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22), or [bug](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22+label%3Abug). 
 
-or if you're not interesting in the technical side of things we'd love your help talking to users (potential, new & old) and scheming for how to making things better. 
+or if you're not interested in the technical side of things, we'd love your help talking to users (potential, new & old) and scheming for how to make things better. 
 
 ### Open Access Button Repositories
 
@@ -34,7 +34,7 @@ We have a few different repos here:
 
 * https://github.com/OAButton/backend
     - This repo is used to discuss all technical work. However, open access button works by using the Cottage Labs API, so there is no functional code in this repo.
-    - OAB is the first examples of developing various front-end services that can work entirely via the CL API, saving the need for dedicated backend development and maintenance. The CL API code can be found at https://github.com/CottageLabs/api
+    - OAB is the first example of developing various front-end services that can work entirely via the CL API, saving the need for dedicated backend development and maintenance. The CL API code can be found at https://github.com/CottageLabs/api
 * https://github.com/OAButton/oab_static
     - Contains code for
         - site content for https://openaccessbutton.org
@@ -50,7 +50,7 @@ We have a few different repos here:
 
 ### Getting in touch
 
-We have decided not to use a general mailing list (because who needs another list?), and have decided to work through issues here on Github. General queries and issues are best dealt with in the [backend repo](https://github.com/OAButton/backend/issues/new). We use Zenhub for some extra layers of co-ordination that Github isn't so good at yet.
+We have decided not to use a general mailing list (because who needs another list?), and have decided to work through issues here on Github. General queries and issues are best dealt with in the [backend repo](https://github.com/OAButton/backend/issues/new). We use [Zenhub](https://www.zenhub.com/) for some extra layers of co-ordination that Github isn't so good at yet.
 
 ### Labels, Milestones, Assignments & other notes on how we use issues
 
@@ -64,14 +64,14 @@ What do the various labels/assignments mean for the project?
 * help wanted: we'd love help here! (coming soon: good first bugs)
 * Plugin / Bookmarklet / Website / Emails / Admin: the place the issue relates too
 * Priority: more important than other things in a catagory
-* Blocked x : We need x in order the close the issue. These labels are added when an issue is created as part of estimating how much work will be needed to close it (and how to close it). They are not removed. 
+* Blocked x : We need x in order to close the issue. These labels are added when an issue is created as part of estimating how much work will be needed to close it (and how to close it). They are not removed. 
 * Jisc: This label shows work supported by Jisc (thanks Jisc!). 
 
-Assignmenting to a milestone is confirmation we're planning to do something. Otherwise, we're not currently planning to do much with it and the issue is just there for safe keeping incase one day we do. 
+Assignment to a milestone is confirmation we're planning to do something. Otherwise, we're not currently planning to do much with it, and the issue is just there for safe keeping incase one day we do. 
 
-Assignmenting to a person means it is currently possible for that person to work on that issue & signifies who is currently needed to move an issue forwards. An issue can be assigned to multiple people at once. If you're assigned an issue, but don't know what you should be doing (or can't do it for some reason) just say. 
+Assignment to a person means it is currently possible for that person to work on that issue & signifies who is currently needed to move an issue forwards. An issue can be assigned to multiple people at once. If you're assigned an issue, but don't know what you should be doing (or can't do it for some reason), just say. 
 
-@comment someone if you need them to see a message. 
+comment @someone if you need them to see a message. 
 
 ### People
 
@@ -83,13 +83,13 @@ Who are the people you see commonly in this repo at the moment?
 * Megan: Does a lot of testing for the Button
 * a variety of other contributors who pop in and out
 
-we're all super friendly, say hello! The people involved in the project more broadly can be found here: https://openaccessbutton.org/about#team
+We're all super friendly, say hello! The people involved in the project more broadly can be found here: https://openaccessbutton.org/about#team
 
 ### How we handle bugs
 
 * Bugs are considered maintainance, rather than development. They are handled on a bug - by - bug basis independantly of sprints.
-* When a bug is filed on Github we will triage it to understand it's severity, and complexity. 
-* A bug fix can be intergrated into a current sprint if desired - if needed we can move issues out of the sprint in this case. 
+* When a bug is filed on Github, we will triage it to understand it's severity, and complexity. 
+* A bug fix can be intergrated into a current sprint if desired - if needed, we can move issues out of the sprint in this case. 
 
 ### Terms
 
