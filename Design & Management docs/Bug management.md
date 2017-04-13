@@ -52,3 +52,11 @@ Example: <<insert>>
 * Point person: Sarah
 
 Example: <<insert>>
+
+
+# Doc to-do's
+
+* Make clear concept of closing
+* Make clear concept of assigning
+* Tell people to sign in
+* Tell people about internal messages
