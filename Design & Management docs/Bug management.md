@@ -60,3 +60,4 @@ Example: <<insert>>
 * Make clear concept of assigning
 * Tell people to sign in
 * Tell people about internal messages
+* make clear ticket expectation
