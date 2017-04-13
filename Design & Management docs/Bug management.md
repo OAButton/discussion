@@ -37,9 +37,13 @@ Example: <<insert>>
 ## Authors emailing for any other reason
 
 * If bug, point person: Sarah
-* If other, point person: ???
+* If other, point person: Natalia, unless unsure, then nudge Chealsye. However, Chealsye can jump on at any point.
 
 Example: <<insert>>
+
+## General email from a librarian
+
+* Point person: Chealyse
 
 ## Anything other than these
 
