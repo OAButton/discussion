@@ -3,7 +3,7 @@
 Bugs & user support needs can get reported via:
 * the help box available on some high value pages
 * Twitter (input from here should go into Github or forwarded to help@openaccessbutton.org for tracking)
-* Bug form
+* Bug form (this is automatically forwarded to Github)
 * Github issues
 * In person (input from here should go into Github or forwarded to help@openaccessbutton.org for tracking)
 * During user testing (input from here should go into Github or forwarded to help@openaccessbutton.org for tracking)
@@ -51,6 +51,26 @@ Example: <<insert>>
 ## General email from a librarian
 
 * Point person: Chealyse
+
+## Find system giving wrong article
+
+### Wrong article searched for
+
+* Make a bug report
+
+### Missed available article
+
+* Make a request on live for the article, and fulfil with full text link
+* Make a bug report the investigate deeper issue
+
+### False positive
+
+* Put specific article on blacklist
+* Try and set up a repo redirect
+
+### Not full text
+
+* Try and set up a repo redirect
 
 ## Anything other than these
 
