@@ -10,12 +10,19 @@ Bugs & user support needs can get reported via:
 
 In each case, the first step is to thank a user & let them know we're looking at it (or provide a fix). The final step should be to close the issue / ticket on Github / Zendesk.
 
-# Common bug types and user support issues & their responses
+#  System Management
+
+#  Common bug types and user support issues & their responses
 
 ## Login email not arriving
 
 * Usually not a bug, just a user support need. Should be handled in Zendesk.
 * Point person: Sarah
+
+Steps to manage:
+* Ask them to add donotreply@openaccessbutton.org to their whitelist
+* Check their email on Mailgun & advise depending on if there is an error show
+* Ask them to try again
 
 Example: <<insert>>
 
@@ -61,3 +68,4 @@ Example: <<insert>>
 * Tell people to sign in
 * Tell people about internal messages
 * make clear ticket expectation
+* Outline Sarah's role as zendesk wranger.
