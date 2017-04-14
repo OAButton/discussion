@@ -8,9 +8,23 @@ Bugs & user support needs can get reported via:
 * In person (input from here should go into Github or forwarded to help@openaccessbutton.org for tracking)
 * During user testing (input from here should go into Github or forwarded to help@openaccessbutton.org for tracking)
 
-In each case, the first step is to thank a user & let them know we're looking at it (or provide a fix). The final step should be to close the issue / ticket on Github / Zendesk.
+Managing all this can get complex. However, the goal is simple, provide ANY response (even thanks or an acknowledgement) within 24 hours. Then, work as soon as possible to address the issue fully.
 
-#  System Management
+We have systems to help manage it. Github, which is documented in the Readme, and Zendesk, described here.
+
+#  Zendesk Management
+
+* Sarah play's the role of "wrangler". Her role is to know the system & keep us honest with getting things closed. She has the full right to bug everyone and jump on anything.
+
+Some lingo for Zenhub:
+* Ticket: The equivalent of an issue
+* Pending: The status of a ticket when we're waiting on a user, or our team for anything.
+* Closed: A ticket where no furthur action can be taken (ideally, a user is happy at this point).
+* Assignments: The point person on a ticket. They're expected to do whatever it takes to close the ticket.
+* Internal messages: A way for us to communicate "internally" about a ticket
+
+*Important*: You need to login to Zendesk to use it effectively. Use email messages only as notifications.  
+*Important*: Assuming any message you send in relation to a ticket may be made public. Screw ups are easy, and costly if we don't follow this rule (not, this is a good general life rule too).
 
 #  Common bug types and user support issues & their responses
 
@@ -79,13 +93,3 @@ Example: <<insert>>
 * Point person: Sarah
 
 Example: <<insert>>
-
-
-# Doc to-do's
-
-* Make clear concept of closing
-* Make clear concept of assigning
-* Tell people to sign in
-* Tell people about internal messages
-* make clear ticket expectation
-* Outline Sarah's role as zendesk wranger.
