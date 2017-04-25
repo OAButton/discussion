@@ -70,21 +70,30 @@ Example: <<insert>>
 
 ### Wrong article searched for
 
-* Make a bug report
+* Thanks users
+* Make a bug report. Error is probably in how we track down titles / citations.
+* Confirm when fixed
 
 ### Missed available article
 
+* Thanks users
 * Make a request on live for the article, and fulfil with full text link
 * Make a bug report the investigate deeper issue
+* Confirm when fixed
 
 ### False positive
 
+* Thanks users
 * Put specific article on blacklist
 * Try and set up a repo redirect
+* Confirm when fixed
+
 
 ### Not full text
 
+* Thanks users
 * Try and set up a repo redirect
+* Confirm when fixed
 
 ## Anything other than these
 
