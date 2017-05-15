@@ -12,6 +12,12 @@ Managing all this can get complex. However, the goal is simple, provide ANY resp
 
 We have systems to help manage it. Github, which is documented in the Readme, and Zendesk, described here.
 
+# Avoiding Zendesk sign in headaches
+
+If you click on a ticket & it doesn't let you see it, do this:
+
+TODO.
+
 #  Zendesk Management
 
 * Sarah play's the role of "wrangler". Her role is to know the system & keep us honest with getting things closed. She has the full right to bug everyone and jump on anything.
