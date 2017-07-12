@@ -8,4 +8,4 @@ Before you contribute, know this:
 * This is an open source (MIT licence) project. Your contribution will be licenced as such. 
 * We try and openly document as much as possible. You might want to check our readme and issues before you contribute.
 
-P.s This isnt a finished contributors guide (you could help by improving it, perhaps) but it is a start. 
+For anything else, don't be afraid to ask. Simply start an issue and hopefully it won't be too long till someone says hello and gets back to you about your question, bug, feature or idea! 
