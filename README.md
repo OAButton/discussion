@@ -14,15 +14,14 @@ The Open Access Button is an app that helps researchers, patients, students and 
 
 If you want to help us build the tools, here are some helpful bits of information! We'll start putting more here soon, as it's harder than it should be to dive in and help right now! Let us know what you'd like to see.
 
-### Quick Guide
+### Quick Guide
 
 * Make an issue (to start a discussion, file a bug or make a suggestion) in the "discussion" repository: https://github.com/OAButton/backend/issues/new
 * Contribute code: You're in the wrong place, see our other repos (below)
 
 ### Ways to contribute
 
-* [Take an hour out of your day to give us some feedback on the tool]
-(https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form)
+* [Take an hour out of your day to give us some feedback on the tool](https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form)
 * Dive into a [starter issue](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 * Take on a [quick fix](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22), or [bug](https://github.com/OAButton/backend/issues?q=is%3Aopen+is%3Aissue+label%3A%22Quick+Fix%22+label%3Abug).
 
