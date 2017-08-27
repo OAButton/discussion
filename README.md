@@ -53,14 +53,19 @@ Important: Before a change is tested on the development site, an issue can't be 
 
 What do the various labels/assignments mean for the project?
 
-* Bug: something that isn't working as expected
-* Enhancement: a way to improve something, usually a new requirement
-* Question / Discussion: a question or topic of discussion. Doesn't denote we should actually do something, just think about it.
+* 1: What's it about? [mandatory]
+ * Plugin / Bookmarklet / Website / Emails / Admin / and more : the product the issue relates too
+* 2: What kind of issue is it? [mandatory]
+ * Bug: something that isn't working as expected
+ * Enhancement: a way to improve something, usually a new requirement
+ * Question / Discussion: a question or topic of discussion. Doesn't denote we should actually do something, just think about it.
+* 3: What's needed to close? [mandatory]
+ * Blocked x : We need x in order to close the issue. These labels are added when an issue is created as part of estimating how much work will be needed to close it (and how to close it). They are not removed.
+ * 4: general contextual info [optional]
 * help wanted: we'd love help here!
-* Plugin / Bookmarklet / Website / Emails / Admin / and more : the product the issue relates too
 * Priority: more important than other things in a catagory
-* Blocked x : We need x in order to close the issue. These labels are added when an issue is created as part of estimating how much work will be needed to close it (and how to close it). They are not removed.
 * Jisc: This label shows work supported by Jisc (thanks Jisc!).
+* Quick fix: wysiwyg
 
 Assignment to a milestone is confirmation we're planning to do something. Otherwise, we're not currently planning to do much with it, and the issue is just there for safe keeping incase one day we do.
 
