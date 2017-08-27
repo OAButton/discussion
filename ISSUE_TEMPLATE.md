@@ -1,3 +1,4 @@
+[//]: # "=======================
 Hi! Thanks for filling an issue! Here are some tips on writing great issues. 
 
 ## Bug report template
@@ -27,4 +28,4 @@ For a great feature request note:
 * **Person** wants to **do something** because **reason** *
 
 A blog on ace issues: https://www.zenhub.com/blog/best-practices-for-github-issues/
-
+============================"
