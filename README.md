@@ -1,5 +1,3 @@
-<a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
-
 #  Open Access Button
 
 ## Welcome!
@@ -42,14 +40,12 @@ We have a few different repos here:
     - you'll find info on editing the site in the readme
 * https://github.com/OAButton/unified-extension
     - This is where we have developed our unified extension, for use in chrome and firefox
-* https://github.com/OAButton/project-management
-    - This is where we discuss project management, and roughly plan the future.
 
 * we have other repo's but they're not being actively worked on or supported.
 
 ### Getting in touch
 
-We have decided not to use a general mailing list (because who needs another list?), and have decided to work through issues here on Github. General queries and issues are best dealt with in the [backend repo](https://github.com/OAButton/backend/issues/new). We use [Zenhub](https://www.zenhub.com/) for some extra layers of co-ordination that Github isn't so good at yet.
+We have decided not to use a general mailing list (because who needs another list?), and have decided to work through issues here on Github. General queries and issues are best dealt with in the [backend repo](https://github.com/OAButton/backend/issues/new).
 
 ### Labels, Milestones, Assignments & other notes on how we use issues
 
@@ -60,8 +56,8 @@ What do the various labels/assignments mean for the project?
 * Bug: something that isn't working as expected
 * Enhancement: a way to improve something, usually a new requirement
 * Question / Discussion: a question or topic of discussion. Doesn't denote we should actually do something, just think about it.
-* help wanted: we'd love help here! (coming soon: good first bugs)
-* Plugin / Bookmarklet / Website / Emails / Admin: the place the issue relates too
+* help wanted: we'd love help here!
+* Plugin / Bookmarklet / Website / Emails / Admin / and more : the product the issue relates too
 * Priority: more important than other things in a catagory
 * Blocked x : We need x in order to close the issue. These labels are added when an issue is created as part of estimating how much work will be needed to close it (and how to close it). They are not removed.
 * Jisc: This label shows work supported by Jisc (thanks Jisc!).
