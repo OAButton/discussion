@@ -1,5 +1,3 @@
-#  Open Access Button
-
 ## Welcome!
 
 Hi, welcome to Github. Github is where the Open Access Button keeps all it's code, discusses huge amounts of our work & more. It's all openly available, and we do it here because we want your help.
