@@ -26,25 +26,30 @@ Add to help explain your problem.
 **Additional context**
 Add any other context about the problem here.
 
-[//]: # "=======================
+**Proposed Fix (if known)**
+How might we fix this?
 
-**For internal use:**
+**Checklist (For internal use)**
 
-# Management checklist
+- [ ] Take a breath. Bugs are okay.
 
-TODO:
-
+Preemptive communications (for high profile bugs):
 - [ ] Put up a site / page banner (if warrented)
 - [ ] Put up a tweet (if warrented)
 - [ ] Put up announcement on Uptimerobot (if warrented)
 - [ ] Set reminder to keep users up to date
 
-To check:
-
+User communications checklist:
 - [ ] Apologize and empathize. e.g I'm so sorry. This must be such a pain.
 - [ ] Give a timeline. We'll review this by X. We're working on this ASAP. 
 - [ ] Confirm understanding of the issue, and request any information required.
 - [ ] Thank them for letting us know. 
 - [ ] Can we mitigate without fixing the bug?
 
-============================"
+Process checklist:
+- [ ] Do we want a `fast` fix or a `good` fix. A good fix likely involves discussion, but may be slower. A fast fix means we fix the problem immediately without consideration for the `right` fix.
+- [ ] Discussion of solution. Remember, our intutative fixs may be different (e.g UI centric, backend centric)
+
+Post-fix
+- [ ] How can we avoid bugs like this in future?
+- [ ] How can we avoid regressions (e.g automated test)
