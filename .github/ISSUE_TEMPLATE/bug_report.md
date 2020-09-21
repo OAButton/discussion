@@ -26,12 +26,25 @@ Add to help explain your problem.
 **Additional context**
 Add any other context about the problem here.
 
-**Proposed Fix (if known)**
+**Proposed Fix (if available)**
 How might we fix this?
 
 **Checklist (For internal use)**
 
 - [ ] Take a breath. Bugs are okay.
+
+Process checklist:
+- [ ] Do we want a `fast` first, then a `good` fix? A `good` fix likely involves discussion, and may be slower. A fast fix means whoever is available fixes the problem as best they can immediately without too much consideration for the `good` fix.
+- [ ] Discussion of solution. Remember, our intutative fixs may be different (e.g UI centric, backend centric)
+- [ ] Stay clear of hangouts
+
+Post-fix
+- [ ] How can we avoid bugs like this in future?
+- [ ] How can we avoid regressions (e.g automated test)
+
+[//]: # "=======================	
+**IF USER VISIBLE**
+============================"	
 
 Preemptive communications (for high profile bugs):
 - [ ] Put up a site / page banner (if warrented)
@@ -45,11 +58,3 @@ User communications checklist:
 - [ ] Confirm understanding of the issue, and request any information required.
 - [ ] Thank them for letting us know. 
 - [ ] Can we mitigate without fixing the bug?
-
-Process checklist:
-- [ ] Do we want a `fast` fix or a `good` fix. A good fix likely involves discussion, but may be slower. A fast fix means we fix the problem immediately without consideration for the `right` fix.
-- [ ] Discussion of solution. Remember, our intutative fixs may be different (e.g UI centric, backend centric)
-
-Post-fix
-- [ ] How can we avoid bugs like this in future?
-- [ ] How can we avoid regressions (e.g automated test)
