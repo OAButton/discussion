@@ -21,7 +21,30 @@ Steps to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **Screenshots / GIF**
-If applicable, add screenshots to help explain your problem.
+Add to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+[//]: # "=======================
+
+**For internal use:**
+
+# Management checklist
+
+TODO:
+
+- [ ] Put up a site / page banner (if warrented)
+- [ ] Put up a tweet (if warrented)
+- [ ] Put up announcement on Uptimerobot (if warrented)
+- [ ] Set reminder to keep users up to date
+
+To check:
+
+- [ ] Apologize and empathize. e.g I'm so sorry. This must be such a pain.
+- [ ] Give a timeline. We'll review this by X. We're working on this ASAP. 
+- [ ] Confirm understanding of the issue, and request any information required.
+- [ ] Thank them for letting us know. 
+- [ ] Can we mitigate without fixing the bug?
+
+============================"
