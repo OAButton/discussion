@@ -12,7 +12,7 @@ We're all super friendly, say hello! The people involved in the project more bro
 
 ### Ways to contribute
 
-* * Make an issue (to start a discussion, file a bug or make a suggestion) in the "discussion" repository: https://github.com/OAButton/backend/issues/new
+* Make an issue (to start a discussion, file a bug or make a suggestion) in the "discussion" repository: https://github.com/OAButton/backend/issues/new
 * [Take an hour out of your day to give us some feedback on the tools](https://docs.google.com/forms/d/e/1FAIpQLSdK3wRKixTVtjn0o8RWvU1MlPPIIKRBsBrHHi6ER_4A3YAmUA/viewform?c=0&w=1&usp=send_form)
 * Contribute code: You're in the wrong place, see our other repos. If you'd like to make a sigificant contribution, it's best to get in touch.
 
