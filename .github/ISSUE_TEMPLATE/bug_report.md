@@ -35,7 +35,7 @@ How might we fix this?
 
 Process checklist:
 - [ ] Do we want a `fast` first, then a `good` fix? A `good` fix likely involves discussion, and may be slower. A fast fix means whoever is available fixes the problem as best they can immediately without too much consideration for the `good` fix.
-- [ ] Discussion of solution. Remember, our intutative fixs may be different (e.g UI centric, backend centric)
+- [ ] Discussion of solution. Remember, our intuitive fixes may be different (e.g UI centric, backend centric)
 - [ ] Stay clear of hangouts
 
 Post-fix
