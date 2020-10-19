@@ -31,12 +31,12 @@ How might we fix this?
 
 **Checklist (For internal use)**
 
-- [ ] Take a breath. Bugs are okay.
+* Take a breath. Bugs are okay.
+* Stay clear of hangouts
 
 Process checklist:
-- [ ] Do we want a `fast` first, then a `good` fix? A `good` fix likely involves discussion, and may be slower. A fast fix means whoever is available fixes the problem as best they can immediately without too much consideration for the `good` fix.
+* Do we want a `fast` first, then a `good` fix? A `good` fix likely involves discussion, and may be slower. A fast fix means whoever is available fixes the problem as best they can immediately without too much consideration for the `good` fix.
 - [ ] Discussion of solution. Remember, our intuitive fixes may be different (e.g UI centric, backend centric)
-- [ ] Stay clear of hangouts
 
 Post-fix
 - [ ] How can we avoid bugs like this in future?
